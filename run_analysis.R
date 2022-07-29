@@ -131,6 +131,6 @@ g <- group_by(ndf, activity, subject)
 # Create the new dataset using `summarise``
 dataset2 <- data.frame(unclass(summarise(g, across(everything(), list(mean)))))
 
-write.csv(dataset2, "dataset2.csv", row.names=FALSE)
+write.table(dataset2, "dataset2.txt", row.name=FALSE)
 
 

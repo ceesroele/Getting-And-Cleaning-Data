@@ -28,7 +28,7 @@ Next, create a second dataset summarizing results:
 - Group by activity and subject (in that order)
 - Take the mean of all columns for that grouping
 - Note that the column headers are changed by having `_1` added
-- Save the resulting data frame in CSV format as `dataset2.csv`
+- Save the resulting data frame in CSV format as `dataset2.txt` using `write.table` with `row.names=FALSE`
 
 ## Features
 
