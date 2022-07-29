@@ -48,6 +48,7 @@ of all these records has been taken after grouping by activity and subject.
 
 Full list of features of the tidy dataset:
 
+```
 1                       activity
 2                        subject
 3            tBodyAcc.mean...X_1
@@ -116,6 +117,7 @@ Full list of features of the tidy dataset:
 66      fBodyBodyGyroMag.std.._1
 67 fBodyBodyGyroJerkMag.mean.._1
 68  fBodyBodyGyroJerkMag.std.._1
+```
 
 
 
