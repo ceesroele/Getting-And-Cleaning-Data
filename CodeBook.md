@@ -33,9 +33,16 @@ Next, create a second dataset summarizing results:
 ## Features
 
 Features of the resulting dataset are:
-- activity: name of the activity measured
+- activity: name of the activity measured, one of 
+  * WALKING 
+  * WALKING_UPSTAIRS
+  * WALKING_DOWNSTAIRS
+  * SITTING
+  * STANDING
+  * LAYING
 - subject: identifier of the subject in a range of 1 to 30
-- Mean for other fields described in `UCI HAR Dataset/features_info.txt`, where `(` and `)` have here been transformed into `.`.
+- Mean giving grouping by activity and subject for fields included in the overview below, which is a numeric value in the range [-1, 1] The fields are among those described in `UCI HAR Dataset/features_info.txt`, where `(` and `)` have here been transformed into `.`.
+
 
 Example:
 tBodyAcc.mean...X_1
